@@ -32,13 +32,33 @@ ul{
 
 }
 
+.title-content{
+    font-size: 1.5rem;
+    font-weight: 800;
+    
+}
+
+.p-content{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
 .mb-20{
     margin-bottom: 20px;
 
 }
 
-.mb-rt15{
+.m-lt20{
+    margin-left: 20px;
+}
+
+.m-rt15{
     margin-right: 15px;
+}
+
+.mt-40{
+    margin-top: 40px;
 }
 
 .gap{
@@ -187,15 +207,12 @@ header {
 
 
 /* Hero */
-.title-hero{
-    font-size: 2rem;
-    font-weight: 500;
-    margin: 50px 0px 20px;
-}
+
 .hero{
     background-image: url(../img/jumbo.png);
-    object-fit: cover;
+    object-fit: fill;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .hero-content {
@@ -207,6 +224,13 @@ header {
     padding: 10px
 }
 
+
+.title-hero{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 50px 0px 20px;
+}
+
 .p-hero{
     font-size: 1rem;
     line-height: 1.5;
@@ -215,29 +239,31 @@ header {
 }
 
 .main-box {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
+    
+    justify-content: center;
+    padding: 10px
 
 }
 
-
-
-.box-content {
+.box-content{
     width: 60%;
-    margin: 40px auto;
-    border-radius: 5px;
-
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url(../img/item1.svg);
+    object-fit: fill;
 }
 
 .box-content-rx {
     width: 40%;
-    margin: 40px auto;
-    border-radius: 5px;
+    max-width: 700px;
+    margin: 0 auto;
 
 }
 
 .end-box {
-    width: 60%;
+    width: 100%;
     margin: 30px auto;
     border-radius: 5px;
 }
