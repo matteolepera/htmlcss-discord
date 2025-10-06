@@ -33,15 +33,21 @@ ul{
 }
 
 .title-content{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 800;
     
 }
 
 .p-content{
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5;
-    text-align: center;
+    
+}
+
+.title-content-end{
+    font-size: 1.4rem;
+    font-weight: 600;
+    
 }
 
 .mb-20{
@@ -253,21 +259,29 @@ header {
 
 .box-content{
     width: 60%;
-    max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto; 
 
-    
 }
 
 .box-content-rx {
     width: 40%;
     margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
-.end-box {
-    width: 100%;
-    margin: 30px auto;
-    border-radius: 5px;
+.box-end{
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-cta{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Footer */
