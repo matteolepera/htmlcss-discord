@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style: none;
+}
+
 /* Utility */
 
 .flex {
@@ -18,9 +22,20 @@
 }
 
 .container {
-    width: 100%;
+    width: 80%;
+    max-width: 1000px;
     margin: 0 auto;
 
+}
+
+.gap{
+    gap: 20px;
+}
+
+
+.text-white05{
+    color: rgba( 255, 255, 255, 0.3);
+    text-decoration: none;
 }
 
 .ht-60 {
@@ -45,6 +60,12 @@
 
 .ht-700 {
     height: 700px;
+}
+
+/* Background-Color */
+
+.hd-bg{
+    background-color: #255EE9;
 }
 
 .bg-sky {
@@ -105,16 +126,20 @@
 
 /* Header */
 header {
+    height: 70px;
     align-items: center;
 }
 
-.header-bar {
-    width: 60%;
-    margin: 0 auto;
+.header-logo{
+    background-image: ;
+}
+
+.nav-bar{
     justify-content: space-between;
     align-items: center;
-
+    font-family: "Roboto", sans-serif;
 }
+
 
 /* Hero */
 
@@ -124,6 +149,8 @@ header {
     margin: 40px auto;
     border-radius: 5px;
 }
+
+
 
 /* Main */
 
