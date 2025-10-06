@@ -65,6 +65,10 @@ ul{
     gap: 30px;
 }
 
+.max-width{
+    max-width: 100%;
+}
+
 /* Text */
 
 .roboto{
@@ -201,7 +205,7 @@ header {
 .main-container {
     width: 100%;
     margin: 0 auto;
-    max-width: 1000px;
+    
 
 }
 
@@ -251,15 +255,13 @@ header {
     width: 60%;
     max-width: 1000px;
     margin: 0 auto;
-    background-image: url(../img/item1.svg);
-    object-fit: fill;
+
+    
 }
 
 .box-content-rx {
     width: 40%;
-    max-width: 700px;
     margin: 0 auto;
-
 }
 
 .end-box {
